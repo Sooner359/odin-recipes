@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Send Your Recipe</h1>
+        <form action="https://script.google.com/macros/s/AKfycby4h-Sq0C8e_ny4yFhnvJ8F-TR0UOob1mXQdf6JVgOY4fenyZaMBr76ehXcyvx2Dbk-/exec" method="post">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label for="name">*Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <label for="ingredients">*Ingredients:</label>
+                <textarea name="ingredients" id="ingredients" cols="30" rows="10" placeholder="Tomatoes, lettuce, bacon..."></textarea>
+                <label for="steps">*Steps:</label>
+                <textarea name="steps" id="steps" cols="30" rows="10" placeholder=" Step 1- Slice Tomatoes Step 2- Toast Bread..."></textarea>
+                <button class="subButton" type="submit">Submit</button>
+            </fieldset>
+        </form>
+        <a class="back-link" href="./index.html">Back to recipes</a>
+    </div>
+</body>
+</html>

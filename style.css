@@ -1,0 +1,98 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template: 50px 1fr 1fr/1fr 1fr;
+}
+
+.header{
+    display: grid;
+    justify-content: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+
+.breakfast{
+    grid-row: 2/3;
+    grid-column-start: 1;
+}
+
+.breakfast>h3{
+    text-decoration: underline;
+}
+
+.lunch{
+    grid-row: 2/3;
+    grid-column-start: 2;
+}
+
+.lunch>h3{
+    text-decoration: underline
+}
+
+.dinner{
+    grid-row: 3/4;
+    grid-column-start: 1;
+}
+
+.dinner>h3{
+    text-decoration: underline
+}
+
+.dessert{
+    grid-row: 3/4;
+    grid-column-start: 2;
+}
+
+.dessert>h3{
+    text-decoration: underline
+}
+
+.recipes{
+    display: grid;
+}
+
+.recipe-header{
+justify-self: end;
+margin-right: 5px;
+}
+
+.recipe-header2{
+    grid-row: 1/2;
+    grid-column-start: 2;
+    margin-left: 5px;
+}
+
+.contact-container{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+fieldset{
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+}
+form{
+    grid-row-start: 2;
+}
+
+.subButton{
+    background-color: rgb(228, 173, 100);
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.back-link{
+    grid-row-start: 3;
+    padding-top: 10px;
+}
