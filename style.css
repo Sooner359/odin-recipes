@@ -5,7 +5,7 @@ body{
 .container{
     height: 100vh;
     display: grid;
-    grid-template: 50px 1fr 1fr/1fr 1fr;
+    grid-template: 100px 1fr 1fr/1fr 1fr;
 }
 
 .header{
@@ -22,52 +22,62 @@ a{
 .breakfast{
     grid-row: 2/3;
     grid-column-start: 1;
+    font-size: xx-large;
 }
 
-.breakfast>h3{
+.breakfast>h1{
     text-decoration: underline;
 }
 
 .lunch{
     grid-row: 2/3;
     grid-column-start: 2;
+    font-size: xx-large;
 }
 
-.lunch>h3{
+.lunch>h1{
     text-decoration: underline
 }
 
 .dinner{
     grid-row: 3/4;
     grid-column-start: 1;
+    font-size: xx-large;
 }
 
-.dinner>h3{
+.dinner>h1{
     text-decoration: underline
 }
 
 .dessert{
     grid-row: 3/4;
     grid-column-start: 2;
+    font-size: xx-large;
 }
 
-.dessert>h3{
+.dessert>h1{
     text-decoration: underline
 }
 
 .recipes{
     display: grid;
+    gap: 20px;
+    font-weight: bold;
 }
 
 .recipe-header{
 justify-self: end;
 margin-right: 5px;
+margin-bottom: 15px;
+font-size: 75px;
 }
 
 .recipe-header2{
     grid-row: 1/2;
     grid-column-start: 2;
     margin-left: 5px;
+    margin-bottom: 15px;
+    font-size: 75px;
 }
 
 .contact-container{
